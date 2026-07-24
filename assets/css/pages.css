@@ -1,0 +1,161 @@
+/* ==========================================================================
+   Academic Website
+   Author : Dr. Rishikant Rajdeepak
+   File   : pages.css
+   Purpose: Page-specific styles
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Home Page
+   ========================================================================== */
+
+.home-intro {
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 4rem;
+
+    margin-top: 2.5rem;
+
+}
+
+.home-text {
+
+    flex: 1;
+
+}
+
+.home-text h3 {
+
+    margin-top: 2rem;
+
+}
+
+.home-photo img {
+
+    width: 220px;
+    height: auto;
+
+    border-radius: 6px;
+
+}
+
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
+.about-intro {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 3rem;
+
+    margin-top: 2.5rem;
+
+}
+
+.about-photo img {
+
+    width: 240px;
+
+    border-radius: 6px;
+
+}
+
+.about-content {
+
+    flex: 1;
+
+}
+
+.about-content h2 {
+
+    margin-top: 0;
+
+}
+
+.about-content p {
+
+    margin-bottom: 1.2rem;
+
+    text-align: justify;
+
+    line-height: 1.8;
+
+}
+
+.about-section {
+
+    margin-top: 4rem;
+
+}
+
+.about-section h2 {
+
+    margin-bottom: 1.5rem;
+
+    padding-bottom: 0.5rem;
+
+    border-bottom: 1px solid var(--color-border);
+
+}
+
+
+/* ==========================================================================
+   Research Page
+   ========================================================================== */
+
+/* Research page styles will be added here. */
+
+
+/* ==========================================================================
+   Teaching Page
+   ========================================================================== */
+
+/* Teaching page styles will be added here. */
+
+
+/* ==========================================================================
+   Contact Page
+   ========================================================================== */
+
+/* Contact page styles will be added here. */
+
+
+/* ==========================================================================
+   Responsive Design
+   ========================================================================== */
+
+@media (max-width: 768px) {
+
+    .home-intro,
+    .about-intro {
+
+        flex-direction: column;
+
+        gap: 2rem;
+
+    }
+
+    .home-photo,
+    .about-photo {
+
+        text-align: center;
+
+    }
+
+    .home-photo img,
+    .about-photo img {
+
+        width: 200px;
+
+    }
+
+}
